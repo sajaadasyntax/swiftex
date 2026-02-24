@@ -50,9 +50,9 @@ export function ServicesSection() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="group rounded-lg border bg-card p-8 shadow-sm transition-all hover:shadow-md hover:border-primary/50"
+              className="group rounded-xl border border-border/60 bg-card p-8 shadow-sm transition-all hover:shadow-emerald-500/20 hover:shadow-lg hover:border-emerald-400/40 hover:-translate-y-0.5"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-gradient-to-r group-hover:from-[#00e676] group-hover:to-[#a8ff35] group-hover:text-black transition-all">
                 <service.icon className="h-6 w-6" />
               </div>
               <h3 className="mt-6 text-xl font-semibold text-foreground">{service.title}</h3>

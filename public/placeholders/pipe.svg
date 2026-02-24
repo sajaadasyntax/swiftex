@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a120e"/>
+      <stop offset="1" stop-color="#080b09"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e676"/>
+      <stop offset="1" stop-color="#a8ff35"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g transform="translate(120,260)" fill="none" stroke="url(#accent)" stroke-width="18" stroke-linecap="round">
+    <path d="M0,60 H320 a60,60 0 0 1 60,60 v60 H560 a60,60 0 0 0 60,-60 V0" stroke-opacity="0.9"/>
+    <circle cx="680" cy="0" r="28" fill="#0d1310" stroke="url(#accent)" stroke-width="8"/>
+  </g>
+  <text x="60" y="740" fill="#b2c7b8" font-family="Arial,Helvetica,sans-serif" font-size="22" letter-spacing="1">
+    Pipework Placeholder • 1200×800 • Neon theme
+  </text>
+</svg>

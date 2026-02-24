@@ -5,6 +5,7 @@ import { AboutSection } from "@/components/about-section"
 import { BrandsSection } from "@/components/brands-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { ContactSection } from "@/components/contact-section"
+import { GalleryCarousel } from "@/components/gallery-carousel"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <HeroSection />
+      <GalleryCarousel />
       <ServicesSection />
       <AboutSection />
       <BrandsSection />
