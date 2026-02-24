@@ -6,6 +6,7 @@ import { BrandsSection } from "@/components/brands-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { ContactSection } from "@/components/contact-section"
 import { GalleryCarousel } from "@/components/gallery-carousel"
+import { WorkGallery } from "@/components/work-gallery"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <ServicesSection />
       <AboutSection />
       <BrandsSection />
+      <WorkGallery />
       <TestimonialsSection />
       <ContactSection />
       <Footer />

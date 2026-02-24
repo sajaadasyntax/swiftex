@@ -13,12 +13,19 @@ type Slide = {
 }
 
 const slides: Slide[] = [
-  { src: "/placeholders/boiler.svg", alt: "Boiler installation" },
-  { src: "/placeholders/radiator.svg", alt: "Radiator upgrade" },
-  { src: "/placeholders/pipe.svg", alt: "Pipework repair" },
-  { src: "/placeholders/thermostat.svg", alt: "Thermostat fitting" },
-  { src: "/placeholders/wrench.svg", alt: "General plumbing" },
-]
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.33.jpeg", alt: "Recent installation" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.34.jpeg", alt: "Pipework detail" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.34 (1).jpeg", alt: "System upgrade" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.34 (2).jpeg", alt: "Radiator replacement" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.35.jpeg", alt: "Clean boiler install" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.35 (1).jpeg", alt: "Neat copper work" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.35 (2).jpeg", alt: "Testing and commissioning" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.36.jpeg", alt: "Thermostat setup" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.36 (1).jpeg", alt: "Valve replacement" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.37.jpeg", alt: "Finishing checks" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.37 (1).jpeg", alt: "Hot water cylinder" },
+  { src: "/work/WhatsApp Image 2026-02-24 at 22.04.37 (2).jpeg", alt: "Tidy final result" },
+].slice(0, 6)
 
 const options: EmblaOptionsType = {
   loop: true,
