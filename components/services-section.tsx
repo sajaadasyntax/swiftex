@@ -102,7 +102,7 @@ function ExpandedPanel({ service, onClose }: { service: Service; onClose: () => 
           </div>
           <button
             onClick={onClose}
-            className="flex-shrink-0 rounded-full border border-border/60 p-2 text-foreground/60 transition hover:border-foreground/40 hover:text-foreground"
+            className="shrink-0 rounded-full border border-border/60 p-2 text-foreground/60 transition hover:border-foreground/40 hover:text-foreground"
             aria-label="Close"
           >
             <ChevronDown className="h-5 w-5 rotate-180" />
@@ -129,7 +129,7 @@ function ExpandedPanel({ service, onClose }: { service: Service; onClose: () => 
               <ul className="space-y-2">
                 {service.included.map((item) => (
                   <li key={item} className="flex items-start gap-2 text-sm text-foreground/80">
-                    <CheckCircle2 className={`h-4 w-4 flex-shrink-0 mt-0.5 ${accent}`} />
+                    <CheckCircle2 className={`h-4 w-4 shrink-0 mt-0.5 ${accent}`} />
                     {item}
                   </li>
                 ))}
@@ -171,7 +171,7 @@ function ExpandedPanel({ service, onClose }: { service: Service; onClose: () => 
                 <>
                   <a
                     href="#contact"
-                    className="inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-[#00e676] to-[#a8ff35] px-6 py-3 font-semibold text-black transition hover:opacity-90 active:scale-95"
+                    className="inline-flex items-center justify-center gap-2 rounded-lg bg-linear-to-r from-[#00e676] to-[#a8ff35] px-6 py-3 font-semibold text-black transition hover:opacity-90 active:scale-95"
                   >
                     {service.ctaText}
                   </a>
@@ -207,7 +207,7 @@ function ExpandedPanel({ service, onClose }: { service: Service; onClose: () => 
                   {service.images.slice(1).map((img, i) => (
                     <div
                       key={i}
-                      className="relative h-20 w-28 flex-shrink-0 overflow-hidden rounded-lg border border-border/40"
+                      className="relative h-20 w-28 shrink-0 overflow-hidden rounded-lg border border-border/40"
                     >
                       <Image
                         src={img}
@@ -230,7 +230,7 @@ function ExpandedPanel({ service, onClose }: { service: Service; onClose: () => 
                   <ul className="space-y-1.5">
                     {service.whyChooseUs.map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
-                        <span className={`mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full ${isEmergency ? "bg-red-400" : "bg-[#00e676]"}`} />
+                        <span className={`mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full ${isEmergency ? "bg-red-400" : "bg-[#00e676]"}`} />
                         {item}
                       </li>
                     ))}
@@ -247,7 +247,7 @@ function ExpandedPanel({ service, onClose }: { service: Service; onClose: () => 
               <ul className="space-y-2">
                 {service.whyChooseUs.map((item) => (
                   <li key={item} className="flex items-start gap-2 text-sm text-foreground/80">
-                    <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-400" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-red-400" />
                     {item}
                   </li>
                 ))}

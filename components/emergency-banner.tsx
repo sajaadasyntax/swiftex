@@ -93,7 +93,7 @@ export function EmergencyBanner() {
                   key={item}
                   className="flex items-center gap-3 rounded-lg border border-red-500/20 bg-red-950/30 px-4 py-3 text-sm text-white/80"
                 >
-                  <span className="h-2 w-2 flex-shrink-0 rounded-full bg-red-500" />
+                  <span className="h-2 w-2 shrink-0 rounded-full bg-red-500" />
                   {item}
                 </div>
               ))}

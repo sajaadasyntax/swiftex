@@ -4,7 +4,7 @@ import { Phone, Star, AlertTriangle, ShieldCheck } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-[650px] overflow-hidden bg-gradient-to-b from-[#0a120e] to-[#080b09]">
+    <section className="relative min-h-[650px] overflow-hidden bg-linear-to-b from-[#0a120e] to-[#080b09]">
       <div className="absolute inset-0">
         <Image
           src="/hero-boiler.jpg"
@@ -29,7 +29,7 @@ export function HeroSection() {
 
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl text-foreground">
             <span className="block text-white/90">Boiler Problem?</span>
-            <span className="mt-2 block bg-gradient-to-r from-[#00e676] to-[#a8ff35] bg-clip-text text-transparent">
+            <span className="mt-2 block bg-linear-to-r from-[#00e676] to-[#a8ff35] bg-clip-text text-transparent">
               We have it covered!
             </span>
           </h1>
@@ -69,7 +69,7 @@ export function HeroSection() {
             {/* General CTA */}
             <Button
               size="lg"
-              className="from-[#00e676] to-[#a8ff35] bg-gradient-to-r text-black hover:opacity-90 gap-2"
+              className="from-[#00e676] to-[#a8ff35] bg-linear-to-r text-black hover:opacity-90 gap-2"
               asChild
             >
               <a href="#contact">Free Estimate</a>
