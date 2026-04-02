@@ -2,10 +2,13 @@ export function BrandsSection() {
   return (
     <section id="vision" className="py-20 bg-card border-y">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-2xl font-bold text-foreground sm:text-3xl">
-          Our Vision
-        </h2>
-        <div className="mt-12 max-w-3xl mx-auto">
+        <div className="text-center">
+          <span className="text-sm font-semibold uppercase tracking-wider text-primary">Our Vision</span>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+            Building Trust, One Job at a Time
+          </h2>
+        </div>
+        <div className="mt-10 max-w-3xl mx-auto">
           <p className="text-muted-foreground leading-relaxed">
             At Swiftfix Plumbing Ltd, customer satisfaction is at the heart of everything we do. Our goal is simple: to keep our customers safe, warm, and satisfied with minimal disruption to their daily lives.
           </p>

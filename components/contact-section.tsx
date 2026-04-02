@@ -1,8 +1,6 @@
 "use client"
 
-import React from "react"
-
-import { useState } from "react"
+import React, { useState } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -113,36 +111,30 @@ export function ContactSection() {
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-1">
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary flex-shrink-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary shrink-0">
                   <Phone className="h-6 w-6" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground">Phone</h3>
-                  <a
-                    href="tel:07767848827"
-                    className="text-primary font-medium hover:underline"
-                  >
+                  <a href="tel:07767848827" className="text-primary font-medium hover:underline">
                     07767 848827
                   </a>
                   <p className="text-sm text-muted-foreground mt-0.5">Emergency services available</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary flex-shrink-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary shrink-0">
                   <Mail className="h-6 w-6" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground">Email</h3>
-                  <a
-                    href="mailto:info@swiftfixplumbing.uk"
-                    className="text-primary font-medium hover:underline"
-                  >
+                  <a href="mailto:info@swiftfixplumbing.uk" className="text-primary font-medium hover:underline">
                     info@swiftfixplumbing.uk
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-4 sm:col-span-2 lg:col-span-1">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary flex-shrink-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary shrink-0">
                   <MapPin className="h-6 w-6" />
                 </div>
                 <div>
@@ -151,7 +143,7 @@ export function ContactSection() {
                 </div>
               </div>
               <div className="flex items-start gap-4 sm:col-span-2 lg:col-span-1">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary flex-shrink-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary shrink-0">
                   <Clock className="h-6 w-6" />
                 </div>
                 <div>

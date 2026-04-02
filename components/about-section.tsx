@@ -1,7 +1,7 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle2 } from "lucide-react"
-import Link from "next/link"
 
 const whyChooseUs = [
   {
@@ -20,16 +20,12 @@ const whyChooseUs = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-20 bg-muted relative overflow-hidden">
-      <div className="pointer-events-none absolute inset-0 opacity-30">
-        <div className="absolute -top-32 -left-32 h-64 w-64 rounded-full bg-gradient-to-br from-[#00e676] to-[#a8ff35] blur-[140px]" />
-        <div className="absolute bottom-0 right-0 h-56 w-56 rounded-full bg-gradient-to-br from-[#a8ff35] to-[#00e676] blur-[120px]" />
-      </div>
+    <section id="about" className="py-20 bg-muted">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           {/* Image */}
           <div className="relative">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+            <div className="relative aspect-4/3 overflow-hidden rounded-2xl">
               <Image
                 src="/engineer.jpg"
                 alt="Swiftfix Plumbing engineer at work"
@@ -38,7 +34,7 @@ export function AboutSection() {
               />
             </div>
             {/* Floating Badge */}
-            <div className="absolute -bottom-6 -right-6 rounded-xl bg-gradient-to-r from-[#00e676] to-[#a8ff35] p-6 text-black shadow-lg hidden sm:block">
+            <div className="absolute -bottom-6 -right-6 rounded-xl bg-primary p-6 text-primary-foreground shadow-lg hidden sm:block">
               <p className="text-4xl font-bold">10+</p>
               <p className="text-sm">Years Experience</p>
             </div>
@@ -64,7 +60,7 @@ export function AboutSection() {
             <div className="mt-8 space-y-4">
               {whyChooseUs.map((item) => (
                 <div key={item.title} className="flex items-start gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold text-foreground">{item.title}</span>
                     <p className="text-sm text-muted-foreground mt-0.5">{item.description}</p>
@@ -73,7 +69,7 @@ export function AboutSection() {
               ))}
             </div>
 
-            <Button asChild className="mt-8 from-[#00e676] to-[#a8ff35] bg-gradient-to-r text-black hover:opacity-90">
+            <Button asChild className="mt-8 bg-secondary text-secondary-foreground hover:bg-secondary/90">
               <Link href="#services">View Our Services</Link>
             </Button>
           </div>

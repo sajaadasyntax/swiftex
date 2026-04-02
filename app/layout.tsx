@@ -7,25 +7,10 @@ import './globals.css'
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'SwiftFix | Plumbing, Heating & Gas Engineers',
-  description: 'Professional plumbing, heating and gas services. Gas Safe registered engineers providing boiler installations, repairs, and emergency callouts.',
-  generator: 'v0.app',
+  title: 'Swiftfix Plumbing Ltd | Plumbing, Heating & Gas Engineers',
+  description: 'Professional plumbing, heating and gas services in London. Gas Safe registered engineers providing boiler installations, repairs, emergency callouts and more.',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/logo.jpeg',
   },
 }
 
